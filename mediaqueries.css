@@ -1,0 +1,60 @@
+@media  (max-width: 992px) {
+header {
+    width: 100%;
+}
+
+    .nav ul {
+        background: linear-gradient(176deg, rgb(237, 223, 154) 18%, rgb(243, 183, 86) 51%, rgba(71,43,136,0.9416141456582633) 97%);
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 120px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+       
+            }
+
+    .nav i {
+        display: block;
+    }
+
+    #toggle-menu:checked ~ .nav-list {
+        display: flex;
+    }
+
+    #presentacion {
+        width: 60%;
+        height: 40%;
+    }
+
+    .info-container {
+        width: 50%;
+        justify-content: center;
+    align-items: center;
+    justify-items: center;
+    }
+
+    .contact-section {
+        pos
+
+    }
+}
+
+@Media (min-width: 576px) { 
+    
+
+    header {
+
+    }
+    
+
+    }
+
+  
+    
+    
+    
+

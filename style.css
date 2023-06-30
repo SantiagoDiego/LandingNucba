@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: ;
+}
+
+body {
+  display: block;
+       background: linear-gradient(176deg, rgb(237, 223, 154) 18%, rgb(243, 183, 86) 51%, rgba(71,43,136,0.9416141456582633) 97%);
+   
+    
+}
+
+header {
+      top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    box-shadow: 1px 10px 30px rgba(212, 113, 37, 0.783);
+background-color: hsla(35, 100%, 62%, 0.959);
+width: 100%;
+
+}
+
+.abrir-menu {
+  display: none;
+}
+
+.cerrar-menu {
+  display: none;
+}
+
+.logotitulo { 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-black);
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.titulonav {
+  font-size: 40px;
+    font-weight: 800;
+    word-spacing: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logotitulo span {
+    font-size: 28px;
+    font-weight: 800;
+    word-spacing: 5px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav i {
+  font-size: 36px;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+}
+
+.li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.nav-list a {
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.762);
+}
+
+.nav-list li:first-child > a {
+    font-weight: 800;
+}
+
+.menulogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: 600;
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 30rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* menu hamburguesa */
+#menu-toggle,
+#cart-toggle,
+.menu-label {
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px 10px 0;
+    
+}
+
+#Presentacion {
+    padding: 20px 30px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pres-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        gap: 20px;
+   
+}
+
+.menulogo {
+  width: 20px;
+}
+
+.pres-info h1 {
+    font-size: 48px;
+    font-weight: 800;
+    background: linear-gradient(45deg, var(--crazy-orange));
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    min-width: 500px;
+    font-family: 'Roboto Condensed', sans-serif; }
+
+    .pres-info h3 {
+        font-size: 28px; 
+        font-family: 'Bacasime Antique', serif;
+      justify-content: center; 
+    align-items: center;
+    }
+
+        #Presentacion img {
+            width: 19%;
+            transition-property: transform, filter;
+            transition-duration: 1.5s; 
+        justify-content: center;
+    align-items: center;
+  }
+
+
+            #info {
+                display: flex;
+                gap: 20px;
+        justify-content: center;
+        align-items: center
+        padding: 20px 10px 10px 20px;
+
+        }
+            
+.info-sobre { 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(213, 190, 75, 0.301);
+    box-shadow: 1px 10px 30px rgb(152, 130, 89);
+    border-radius: 10px;
+    
+    }
+
+    #info .info-container {
+        max-width: 1200px;
+    }
+
+    .info-sobre h3 {
+        font-weight: 500px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 16px 10px 10px 5px;
+        max-width: 1200px;
+        font-family: 'Roboto Condensed', sans-serif;
+        
+    }
+
+    .info-sobre p {
+            font-weight: 80px;
+        justify-content: center;
+        align-content: center;
+        padding: 10px 10px 20px 20px ;
+        font-size: 20px;
+        margin: 5px 10px 0 0 ;
+     
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    
+      /* MENU DE HAMBURGUESAS */
+
+      #Menu {
+        margin: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+align-items: center;
+        flex-wrap: wrap;
+        }
+
+      .menu-item {
+        background-color: #fff;
+        border-radius: 6px;
+        box-shadow: 10px 0 2px 4px rgba(181, 96, 12, 0.1);
+        margin: 15px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+  justify-content: center;
+  align-items: center;
+        text-align: center;
+        width: 500px;
+        height: 300px;
+        background: rgb(245,206,7);
+        background: linear-gradient(317deg, rgba(245,206,7,1) 0%, rgba(255,211,115,1) 51%, rgba(246,237,96,1) 85%);
+
+      }
+
+      
+      .menu-item img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+      
+      .menu-item h3 {
+        margin-top: 10px;
+      }
+      
+      .menu-item .price {
+        color: #391952;
+        font-weight: bold;
+        margin-top: 5px;
+      }
+
+      .menu-item .boton-com {
+        background-color: #d37160;
+        background: hsl(29, 85%, 58%);
+        margin-top: 15px;
+        border-radius: 5px;
+        padding: 10px 5px 10px;
+      }
+
+
+  /* Login */
+
+.titulo-login { 
+  font-size: 40px;
+  font-weight: 600;
+  margin: 5px 10px 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #39103a;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+  #login {
+    gap: 15px;
+  display: flex;
+  justify-content: center;
+
+
+  }
+   
+  .login-container {
+    background-color: #4e0e8267;
+    padding: 20px 15px 20px 15px;
+    border-radius: 5px;
+    border-radius: 5px;
+    gap: 15px;
+    
+  }
+
+  .login-form {
+    width: 400px;
+    height: 120px;
+    justify-content: center;
+  
+  }
+
+  #login h2 {
+    padding: 10px 5px 5px;
+    display: flex;
+  }
+  
+  #login form {
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+  
+  #login input[type="email"],
+  #login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-items: center;
+    
+  }
+  
+  #login button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #login button[type="submit"]:hover {
+    background-color: #ffd85a;
+  }
+
+  #login a {   
+    color: rgb(255, 255, 255)
+  }
+
+  #login p {   
+    color: rgba(253, 170, 253, 0.931)
+  }
+
+  /*Contacto */
+
+  .contact-section {
+    text-align: center;
+    padding: 20px;
+  
+    }
+
+  .contact-title {
+    font-weight: 900;
+    padding: 10px 15px 20px 20px;
+    font-family: 'Roboto Condensed', sans-serif;}
+
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 10px;
+  
+  }
+
+  .contact-links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+    background-color: #f5f5f412;
+    color: rgba(253, 253, 253, 0.667);
+    text-decoration-color: #fff8f8;
+    background-color: #ffffff0f;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    gap: 20px;
+    max-width: 1200px;
+  }
+
+  .contact-links a img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .contact-links a:hover {
+    background-color: #f3e9f28e;
+  }
+
+  /*footer */
+  
+  .footer {
+    margin: 0;
+    padding: 0;
+    background: rgba(28, 15, 15, 0.399);
+    text-decoration-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
